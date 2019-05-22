@@ -16,8 +16,8 @@
 
 ## Update all currently installed packages
 
-- Download package lists with `sudo apt-get update`
-- Fetch new versions of packages with `sudo apt-get upgrade`
+- Download package lists with `sudo apt update`
+- Fetch new versions of packages with `sudo apt upgrade`
 
 ## Secure server
 
