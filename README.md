@@ -45,6 +45,10 @@
   - `sudo ufw allow 80/tcp`
   - `sudo ufw allow 123/udp` 
   - `sudo ufw enable`
+ 
+### Prevent the `error sudo: unable to resolve host`
+ - Run `sudo nano /etc/hosts`
+ - Add `127.0.1.1 ip-172-26-13-121`
 
 ## Give `grader` access
 - Create a new user account named `grader`
