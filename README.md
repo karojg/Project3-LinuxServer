@@ -66,11 +66,12 @@
     vim .ssh/authorized_keys
     ```
 
-Copy the public key generated on your local machine to this file and save
+- Copy the public key previously generated authorized_keys
+- Update .ssh permissions
 
     ```
-    $ chmod 700 .ssh
-    $ chmod 644 .ssh/authorized_keys
+    chmod 700 .ssh
+    chmod 644 .ssh/authorized_keys
     ```
 
 - Reload SSH 
@@ -183,8 +184,6 @@ exit
 ## Restart Apache
 - Restart Apache
 `sudo service apache2 restart`
-
-  ----
 
 ## Resources used to accomplish project
 
