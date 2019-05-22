@@ -80,6 +80,10 @@
     `sudo service ssh restart`
 - Grader should be able to login with ssh at port 2200
     `ssh -i ~/.ssh/udacity -p 2200 grader@3.94.87.12`
+    
+### Remove remote access as root
+ - `sudo nano /etc/ssh/sshd_config`
+ - Set `PermitRootLogin` to `no   `
 
 ## Prepare to deploy your project
 
