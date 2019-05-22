@@ -45,7 +45,7 @@
  
 ### Prevent the `error sudo: unable to resolve host`
  - Run `sudo nano /etc/hosts`
- - Add `127.0.1.1 ip-172-26-13-121`
+ - Add `127.0.1.1 ip-172-26-13-6`
 
 ## Give `grader` access
 - Create a new user account named `grader`
