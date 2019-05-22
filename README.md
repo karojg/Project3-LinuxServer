@@ -32,10 +32,7 @@
 - Change the SSH port from **22** to **2200**. 
   - Run `sudo nano /etc/ssh/sshd_config` 
   - Change the port from 22 to 2200
-  - Make sure to configure the Lightsail firewall to allow it. 
-  
-  ![image-20190520173612835](/Users/karojg/Library/Application Support/typora-user-images/image-20190520173612835.png)
-  
+  - Make sure to configure the Lightsail firewall to allow it.  
   - Confirm by accessing via port 2200
     `ssh -i ~/.ssh/aws.pem -p 2200 ubuntu@3.94.87.12`
   
