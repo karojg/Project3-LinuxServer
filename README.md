@@ -41,6 +41,8 @@
   - `sudo ufw allow 2200/tcp`
   - `sudo ufw allow 80/tcp`
   - `sudo ufw allow 123/udp` 
+  - `sudo ufw allow out http`
+  - `sudo ufw allow out 53`
   - `sudo ufw enable`
  
 ### Prevent the `error sudo: unable to resolve host`
@@ -198,3 +200,5 @@ exit
 - https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 
 - https://github.com/jungleBadger/-nanodegree-linux-server
+
+- https://serverfault.com/questions/468907/ufw-blocking-apt
